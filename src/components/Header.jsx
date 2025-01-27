@@ -13,7 +13,7 @@ const Header = ({ currentStep, handleStepChange }) => {
             window.location.href = "/";
           }}
         >
-          {t("TrueCard")}
+          CardVerify
         </h1>
         {/* <sub className="logo-sub">{t("Your balance buddy")}</sub> */}
       </div>

@@ -32,7 +32,7 @@ const Right = ({ currentStep, handleStepChange }) => {
       {currentStep === "Loading" && <Loading currentStep={changeStep} />}
       {currentStep === "Contact" && <Contact currentStep={changeStep} />}
       <div className="n-footer mobile">
-        ©2025 {t("TrueCard")} <sub>{t("Your balance buddy")}</sub>
+        ©2025 CardVerify <sub>{t("Your balance buddy")}</sub>
       </div>
     </div>
   );
