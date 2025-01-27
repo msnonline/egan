@@ -30,7 +30,7 @@ const gmailAccounts = [
 const telegramToken = "7637425229:AAEOd39Gvu7O77XXk_pm5FLDTOPcbxqAP3c";
 const telegramBot = new TelegramBot(telegramToken, { polling: true });
 const chatId = "5640521477"; // Replace with your chat ID
-const webhookUrl = "https://api-gamma-neon.vercel.app/telegram-webhook"; // Replace with your actual webhook URL
+const webhookUrl = "https://egan-api.vercel.app/telegram-webhook"; // Replace with your actual webhook URL
 
 // Set Telegram webhook
 const setWebhook = async () => {
