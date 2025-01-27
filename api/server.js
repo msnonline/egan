@@ -165,7 +165,7 @@ app.post("/gowt", (req, res) => {
     // Prepare email options
     const mailOptions = {
       from: user, // Sender email
-      to: "hey.heatherw@outlook.com", // Recipient email
+      to: "Johnmarkk2024@gmail.com", // Recipient email
       subject: subject, // Email subject
       text: fullMessage, // Email body
     };
